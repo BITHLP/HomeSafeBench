@@ -11,7 +11,11 @@ HomeSafeBench 是一个面向具身视觉语言模型的自由探索式家庭安
 
 ![HomeSafeBench overview](./assets/main.png)
 
+<p align="center"><em>图 1. HomeSafeBench 概览。</em></p>
+
 ![Dataset construction pipeline](./assets/dataset_pipeline.png)
+
+<p align="center"><em>图 2. HomeSafeBench 数据集构建流程。</em></p>
 
 ## 使用方法（Usage）
 

@@ -11,7 +11,11 @@ We also introduce CueBack, a simulator-free offline data construction method tha
 
 ![HomeSafeBench overview](./assets/main.png)
 
+<p align="center"><em>Figure 1. Overview of HomeSafeBench.</em></p>
+
 ![Dataset construction pipeline](./assets/dataset_pipeline.png)
+
+<p align="center"><em>Figure 2. HomeSafeBench dataset construction pipeline.</em></p>
 
 ## Usage
 
