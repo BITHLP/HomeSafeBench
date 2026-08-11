@@ -1,0 +1,92 @@
+# Internal planning and local collaboration notes
+OPEN_SOURCE_PLAN.md
+VIRTUALHOME_SETUP.md
+EVAL_RUN.md
+DATA_DOWNLOAD.md
+README_DRAFT_ZH.md
+TODO.local.md
+NOTES.local.md
+tmp_scripts/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+api_key.txt
+api.key
+credentials.json
+secrets.json
+
+# Python environments, caches, and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+tests/fixtures/
+tests/output/
+tests/tmp/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Runtime outputs and locally captured images
+runs/
+logs/
+output/
+output_*/
+tmp/
+checkpoints/
+wandb/
+tensorboard/
+*.log
+
+# Downloaded assets and model weights
+# Keep directory-level documentation and .gitkeep files trackable.
+data_backup/
+/data/train/
+/data/test/
+cueback/images/*
+!cueback/images/README.md
+!cueback/images/.gitkeep
+cueback/sft_action.jsonl
+cueback/sft_both.jsonl
+cueback/cueback.jsonl
+cueback/upload_missing_to_hf.py
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Third-party source trees, Unity binaries, and developer-only soft links
+/third_party/*
+!third_party/README.md
+!third_party/.gitkeep
+*.app
+*.exe
+
+# Packaging/build outputs
+build/
+dist/
+*.egg-info/
